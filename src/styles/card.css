@@ -1,0 +1,14 @@
+.card {
+    background-color: rgb(200, 124, 36);
+    cursor: pointer;
+}
+.card:hover {
+    box-shadow: 
+    inset 0 -3em 3em rgb(200, 124, 36),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200, 124, 36);
+}
+.card-title {
+    color: black;
+    background-color: rgb(236, 228, 217);
+}

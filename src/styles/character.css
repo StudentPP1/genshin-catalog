@@ -1,0 +1,13 @@
+.table-data {
+    background-color: rgb(200, 124, 36);
+}
+.character-image {
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+    border-radius: 50%;
+    border: 1rem solid bisque;
+}
+.center {
+    margin: auto;
+}
