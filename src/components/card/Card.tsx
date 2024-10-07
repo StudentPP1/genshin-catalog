@@ -9,10 +9,12 @@ export const Card: React.FC<{ character: string , image: string}> = (props) => {
   }
 
   return (
-    <Link to={`/${props.character}`} className="rounded-lg text-center h-128 w-128 hover:scale-110">
-      <img className="catalog-card rounded-t-lg" src={props.image} alt="icon" />
-      <div className="card-title rounded-b-lg">
-        {capitalize(props.character)}
+    <Link to={`/${props.character}`} className="rounded-lg text-center h-128 w-128">
+      <div className="card hover:scale-110 rounded-lg">
+        <img className="card-img rounded-t-lg" src={props.image} alt="icon" />
+        <div className="card-title rounded-b-lg">
+          {capitalize(props.character)}
+        </div>
       </div>
     </Link>
   )
