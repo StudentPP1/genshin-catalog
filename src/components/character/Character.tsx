@@ -141,14 +141,6 @@ function Character() {
                 {weapon}
               </td>
             </tr>
-            <tr className="border-b border-black hover:scale-105 hover:shadow-sm hover:shadow-white">
-              <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Weapon
-              </th>
-              <td className="px-6 py-4 font-medium text-right">
-                {weapon}
-              </td>
-            </tr>
           </tbody>
         </table>
 
